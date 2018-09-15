@@ -1,9 +1,41 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './app.css';
-import Bob from './components/bob'
+import base from '../base';
 
-class App extends Component {
+class App extends React.Component {
+  state = {
+    tip: {}
+  };
+  componentDidMount() {
+    const { params } = this.props.match;
+    this.ref = base.syncState(`${params.tipId}`, {
+      context: this,
+      state: 'tip'
+    });
+  }
+
+  componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }
+
+  createTip = () => {
+    alert('clicked');
+    const tipState = {
+      tip: {
+        tip1: {
+          name: "Keep your code DRY",
+          desc: "Don't Repeat Yourself"
+        },
+        tip2: {
+          name: "another tip",
+          desc: "just the tip"
+        }
+      }
+    };
+    this.setState({tip: tipState});
+  };
+
   render() {
     return (
       <div className="app">
@@ -14,7 +46,7 @@ class App extends Component {
         <p className="app-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Bob />
+        <button onClick={this.createTip}>Create & Save</button>
       </div>
     );
   }
