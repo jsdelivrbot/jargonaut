@@ -4,7 +4,7 @@
   "keywords": [
     "node"
   ],
-  "website": "",
+  "website": "http://jargonaut.herokuapp.com",
   "repository": "https://github.com/HackTheNight/jargonaut",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "success_url": "/",
