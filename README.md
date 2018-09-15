@@ -1,3 +1,13 @@
+# Jargonaut
+[![Build Status](https://travis-ci.org/HackTheNight/jargonaut.svg?branch=master)](https://travis-ci.org/HackTheNight/jargonaut)
+[![codecov](https://codecov.io/gh/HackTheNight/jargonaut/branch/master/graph/badge.svg)](https://codecov.io/gh/HackTheNight/jargonaut)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/)](https://www.codacy.com/app/HackTheNight/jargonaut)
+[![Greenkeeper badge](https://badges.greenkeeper.io/HackTheNight/jargonaut.svg)](https://greenkeeper.io/) 
+[![dependencies Status](https://david-dm.org/HackTheNight/jargonaut/status.svg)](https://david-dm.org/HackTheNight/jargonaut)
+[![devDependencies Status](https://david-dm.org/HackTheNight/jargonaut/dev-status.svg)](https://david-dm.org/HackTheNight/jargonaut?type=dev)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HackTheNight/jargonaut)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -1,0 +1,18 @@
+{
+  "name": "Jargonaut",
+  "description": "",
+  "keywords": [
+    "node"
+  ],
+  "website": "http://jargonaut.herokuapp.com",
+  "repository": "https://github.com/HackTheNight/jargonaut",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "success_url": "/",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "image": "heroku/node",
+  "addons": [],
+  "buildpacks": [],
+  "environments": {}
+}
