@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './app.css';
 import base from '../base';
+import TabBase from "./components/contentTab/tabBase";
 
 class App extends React.Component {
   state = {
@@ -41,12 +42,16 @@ class App extends React.Component {
       <div className="app">
         <header className="app-header">
           <img src={logo} className="app-logo" alt="logo" />
-          <h1 className="app-title">Welcome to Jargonaut</h1>
+          <h1 className="app-title">Welcome to Jargonnaut</h1>
         </header>
         <p className="app-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <button onClick={this.createTip}>Create & Save</button>
+        <TabBase>
+          <div title="Hi">HelloWorl41234d</div>
+          <div title="Test">Hi QT</div>
+        </TabBase>
       </div>
     );
   }
